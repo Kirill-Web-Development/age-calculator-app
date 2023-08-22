@@ -1,0 +1,11 @@
+:root {
+    --primary-color: hsl(259, 100%, 65%);
+    --neutral-color: hsl(0, 0%, 100%);
+    --neutral-bg-color: hsl(0, 0%, 86%);
+    --neutral-input-border-color: hsl(0, 1%, 44%);
+
+    --error-color: hsl(0, 100%, 67%);
+
+    --typo-neutral-color: hsl(0, 0%, 8%);
+    --typo-primary-color : hsl(0, 1%, 44%);
+  }

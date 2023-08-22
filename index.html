@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/css/styles.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding-bottom: 15px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+
+  <div class="calc">
+    <div class="calc__conteiner">
+      <form class="inputs-group">
+        <div class="input-item">
+          <label class="input__label" for="">Day</label>
+          <div class="input-item__wrapper">
+            <input id="day-input" class="inputs-group__input" type="number" placeholder="DD">
+          </div>
+        </div>
+        <div class="input-item">
+          <label class="input__label" for="">Month</label>
+          <div class="input-item__wrapper">
+            <input id="month-input" class="inputs-group__input" type="number" placeholder="MM" >
+          </div>
+        </div>
+        <div class="input-item">
+          <label class="input__label" for="">year</label>
+          <div class="input-item__wrapper">
+            <input id="year-input" class="inputs-group__input" type="number" placeholder="YYYY">
+          </div>
+        </div>
+      </form>
+      <div class="divider">
+        <hr class="divider__line">
+        <div class="circle divider__circle circle-anim">
+            <img class="divider__circle-img" src="./dist/assets/images/icon-arrow.svg" alt="arrow-btn">
+        </div>
+      </div>
+      <div class="output">
+        <output class="output__wrapper">
+          <div class="output__item"><span id="output__years-value">--</span>years</div>
+          <div class="output__item"><span id="output__months-value">--</span>months</div>
+          <div class="output__item"><span id="output__days-value">--</span>days</div>
+        </output>
+      </div>
+    </div>
+  </div>
+
+</main>
+<footer class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/Kirill-Web-Development">Kirill Pinchukov</a>.
+</footer>
+
+<script src="./dist/bundle.js"></script>
+</body>
+</html>
